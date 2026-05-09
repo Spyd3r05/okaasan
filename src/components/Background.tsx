@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
 import { getRandomFloat } from "../utils/utils";
 
@@ -14,7 +13,6 @@ type element = {
 
 const Background = () => {
   const elementsList = ["🌸", "✨", "🎀", "♡", "💖", "(≧◡≦)", "૮ ˶ᵔ ᵕ ᵔ˶ ა"];
-  const [elements, setElements] = useState<element[]>(generateElements);
 
   function generateElements(): element[] {
     const newElements = Array.from({ length: 20 }).map((_, i) => ({
@@ -25,9 +23,10 @@ const Background = () => {
       duration: getRandomFloat(10, 25),
       content: elementsList[Math.floor(getRandomFloat(0, elementsList.length))],
     }));
-    setElements(newElements);
     return newElements;
   }
+  const elements = generateElements();
+
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
       {elements.map((el) => (
