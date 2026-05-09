@@ -1,1 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dancing+Script:wght@700&family=Nunito:wght@400;600;700;800&family=Mali:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Mali", cursive;
+  --font-cursive: "Dancing Script", cursive;
+  --font-letter: "Caveat", cursive;
+
+  --color-pink-50: #fff0f5;
+  --color-pink-100: #ffe4e1;
+  --color-pink-200: #ffc0cb;
+  --color-pink-300: #ffb6c1;
+  --color-pink-400: #ff69b4;
+  --color-pink-500: #ff1493;
+  --color-pink-600: #db7093;
+  --color-pink-700: #c71585;
+  --color-pink-800: #900c3f;
+  --color-pink-900: #581845;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--color-pink-100);
+  touch-action: none; /* Prevent scroll/bounce on mobile */
+}
