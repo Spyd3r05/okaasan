@@ -1,8 +1,8 @@
-# haha no hi omedetou
+# **okaasan no hi omedetou**
 
-### this means happy mother's day japanese. this whole site is a dedication for my mom. i feel like she deserves the best and i hope she loves this.
+This means happy mother's day japanese. This whole site is a dedication for my mom. I feel like she deserves the best and I hope she loves this.
 
-## **TECH STACK**
+## TECH STACK
 
 - Vite
 - React
@@ -10,19 +10,32 @@
 - TailwindCSS
 - Lucide-React
 - Framer Motion
-
-## SCREENSHOTS
-
-_(will be updated soon) ><_
-
-## DEPLOYMENT
-
-_will be updated soon_
+- canvas confetti
 
 ## CONTRIBUTION
 
 Feel free to clone this and use it for your mom too!
 
+```bash
+git clone https://github.com/Spyd3r05/okaasan.git
+
+```
+
+## INSTALLATION
+
+```bash
+cd okaasan
+npm install
+npm run dev
+```
+
 ## LICENSE
 
 All rights preserved.
+
+## SCREEN RECORDING OF SITE
+
+<video width=100% height="auto" controls>
+    <source src="./public/mothersday.mp4"
+
+</video>
