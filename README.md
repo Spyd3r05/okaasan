@@ -35,4 +35,4 @@ All rights preserved.
 
 ## SCREEN RECORDING OF SITE
 
-<video src="./public/mothersday.mp4" width=100% height="auto" controls></video>
+https://github.com/user-attachments/assets/685e08f0-814a-46af-8f53-8f586ab7794a
